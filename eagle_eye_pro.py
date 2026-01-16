@@ -1,5 +1,5 @@
 """
-EagleEye: Professional Booklet Automation & Verification Tool
+EagleEye: Booklet Automation & Verification Tool
 Author: Alireza
 License: MIT
 """
@@ -19,7 +19,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.chrome.options import Options
 
-# --- Professional Logging Configuration ---
+# --- Logging Configuration ---
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s [%(levelname)s] %(message)s',
